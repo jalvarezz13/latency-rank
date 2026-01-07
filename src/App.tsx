@@ -117,7 +117,14 @@ const App: React.FC = () => {
         <ResultsList stats={stats} />
       </main>
 
-      <footer className="mt-16 text-slate-400 text-sm font-medium">
+      <footer className="mt-16 text-slate-400 text-sm font-medium flex flex-col items-center">
+        <a href="https://github.com/jalvarezz13/latency-rank" target="_blank" className="mb-2 inline-block">
+          <img
+            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+            alt="GitHub Badge"
+            className="inline-block mb-1 rounded-2xl"
+          />
+        </a>
         <span>
           Made with ❤️ by&nbsp;
           <a className="underline" target="_blank" href="https://www.linkedin.com/in/jalvarezz13/">
