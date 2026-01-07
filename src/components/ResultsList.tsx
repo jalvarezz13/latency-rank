@@ -1,7 +1,9 @@
 import React, { useMemo } from 'react'
-import { DomainStats, MAX_PINGS_PER_DOMAIN } from '../types'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
+
 import { GlobeAltIcon, CheckCircleIcon, XCircleIcon } from '@heroicons/react/24/outline'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
+
+import { type DomainStats } from '../types'
 
 interface ResultsListProps {
   stats: DomainStats[]
